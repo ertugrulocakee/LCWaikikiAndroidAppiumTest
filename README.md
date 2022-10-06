@@ -9,7 +9,7 @@ OOP prensiplerine ve Page Object Pattern kullanımına dikkat edilmiştir.
 Not => Yakın zamanda bu repo güncelleme alabilir! Otomasyon daha iyi hale getirilecek.
   
 Not => Sisteme giriş yapmak için gerekli olan hesap bilgileri paylaşılmadı. Kendi hesap bilgilerinizi kullanarak homepageobjectmodel sınıfındaki ilgili yerleri
-düzenleyiniz. Sonrasında otomasyonu çalıştırmayı deneyiniz! 
+düzenleyiniz. DeviceID bilgisini kendi deviceId bilginizle güncelleyin! Sonrasında otomasyonu çalıştırmayı deneyiniz! 
   
 
 - https://www.lcwaikiki.com/tr-TR/TR sitesi açılır.
