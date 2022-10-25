@@ -10,6 +10,7 @@ Not => Yakın zamanda bu repo güncelleme alabilir! Otomasyon daha iyi hale geti
   
 
 - https://www.lcwaikiki.com/tr-TR/TR sitesi açılır.
+- Ana sayfanın açıldığı kontrol edilir.
 - Arama kutucuğuna “pantolon” kelimesi girilir.
 - Sonuca göre sergilenen ürünlerden rastgele bir ürün seçilir.
 - Seçilen ürün sepete eklenir.
