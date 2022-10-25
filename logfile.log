@@ -12,3 +12,93 @@ Driver info: io.appium.java_client.AppiumDriver
 Capabilities {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, databaseEnabled: false, desired: {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, deviceName: Android, newCommandTimeout: 250, platformName: android, udid: 5200c385ea39352d}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-J720F, deviceName: 5200c385ea39352d, deviceScreenDensity: 280, deviceScreenSize: 720x1280, deviceUDID: 5200c385ea39352d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 250, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 42, takesScreenshot: true, udid: 5200c385ea39352d, viewportRect: {height: 1238, left: 0, top: 42, width: 720}, warnings: {}, webStorageEnabled: false}
 Session ID: 2ab3c473-31b7-44c2-8026-be69a0c8f744
 *** Element info: {Using=id, value=com.lcwaikiki.android:id/itemBasketPrice} 
+2022-10-25 18:01:48,374 ERROR [Log] login() is Fail! --- Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-25 18:05:02,800 ERROR [Log] login() is Fail! --- Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-25 18:06:50,963 ERROR [Log] login() is Fail! --- Expected condition failed: waiting for visibility of element located by By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-25 18:07:51,072 ERROR [Log] select() is Fail! --- bound must be positive 
+2022-10-25 18:07:53,386 ERROR [Log] addJeanToBasket() is Fail! --- A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, databaseEnabled: false, desired: {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, deviceName: Android, newCommandTimeout: 250, platformName: android, udid: 5200c385ea39352d}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-J720F, deviceName: 5200c385ea39352d, deviceScreenDensity: 280, deviceScreenSize: 720x1280, deviceUDID: 5200c385ea39352d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 250, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 42, takesScreenshot: true, udid: 5200c385ea39352d, viewportRect: {height: 1238, left: 0, top: 42, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: db083c9c-96be-45a0-8595-66651df40e3d
+*** Element info: {Using=id, value=com.lcwaikiki.android:id/basket} 
+2022-10-25 18:07:53,408 ERROR [Log] basketOperations() is Fail! --- A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, databaseEnabled: false, desired: {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, deviceName: Android, newCommandTimeout: 250, platformName: android, udid: 5200c385ea39352d}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-J720F, deviceName: 5200c385ea39352d, deviceScreenDensity: 280, deviceScreenSize: 720x1280, deviceUDID: 5200c385ea39352d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 250, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 42, takesScreenshot: true, udid: 5200c385ea39352d, viewportRect: {height: 1238, left: 0, top: 42, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: db083c9c-96be-45a0-8595-66651df40e3d
+*** Element info: {Using=id, value=com.lcwaikiki.android:id/itemBasketPrice} 
+2022-10-25 18:21:57,693 INFO  [Log] search() is Successfull! 
+2022-10-25 18:22:02,900 INFO  [Log] select() is Successfull! 
+2022-10-25 18:23:09,962 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 18:23:23,374 INFO  [Log] basketOperations() is Successfull! 
+2022-10-25 20:11:55,952 INFO  [Log] search() is Successfull! 
+2022-10-25 20:12:01,108 INFO  [Log] select() is Successfull! 
+2022-10-25 20:13:07,982 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 20:13:21,121 INFO  [Log] basketOperations() is Successfull! 
+2022-10-25 20:40:18,766 INFO  [Log] search() is Successfull! 
+2022-10-25 20:40:24,601 INFO  [Log] select() is Successfull! 
+2022-10-25 20:41:24,911 ERROR [Log] addJeanToBasket() is Fail! --- The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, databaseEnabled: false, desired: {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, deviceName: Android, newCommandTimeout: 250, platformName: android, udid: 5200c385ea39352d}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-J720F, deviceName: 5200c385ea39352d, deviceScreenDensity: 280, deviceScreenSize: 720x1280, deviceUDID: 5200c385ea39352d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 250, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 42, takesScreenshot: true, udid: 5200c385ea39352d, viewportRect: {height: 1238, left: 0, top: 42, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6ab84c87-60b7-48cf-bed5-6d10365d396b 
+2022-10-25 20:42:25,079 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-25 21:00:02,445 INFO  [Log] search() is Successfull! 
+2022-10-25 21:00:07,533 INFO  [Log] select() is Successfull! 
+2022-10-25 21:03:10,159 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 21:04:10,304 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-25 21:04:38,733 INFO  [Log] search() is Successfull! 
+2022-10-25 21:04:43,831 INFO  [Log] select() is Successfull! 
+2022-10-25 21:11:21,741 INFO  [Log] search() is Successfull! 
+2022-10-25 21:11:27,515 INFO  [Log] select() is Successfull! 
+2022-10-25 21:14:30,237 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 21:15:30,425 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-25 21:17:28,017 INFO  [Log] search() is Successfull! 
+2022-10-25 21:17:33,360 INFO  [Log] select() is Successfull! 
+2022-10-25 21:19:40,934 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 21:19:54,279 INFO  [Log] basketOperations() is Successfull! 
+2022-10-25 21:22:00,941 INFO  [Log] search() is Successfull! 
+2022-10-25 21:22:05,772 INFO  [Log] select() is Successfull! 
+2022-10-25 21:24:12,148 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 21:24:25,523 INFO  [Log] basketOperations() is Successfull! 
+2022-10-25 21:24:54,347 INFO  [Log] search() is Successfull! 
+2022-10-25 21:24:59,882 INFO  [Log] select() is Successfull! 
+2022-10-25 21:26:26,092 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 21:26:39,879 INFO  [Log] basketOperations() is Successfull! 
+2022-10-25 21:29:07,053 INFO  [Log] search() is Successfull! 
+2022-10-25 21:29:12,410 INFO  [Log] select() is Successfull! 
+2022-10-25 21:30:20,654 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 21:30:33,834 INFO  [Log] basketOperations() is Successfull! 
+2022-10-25 21:31:34,615 INFO  [Log] search() is Successfull! 
+2022-10-25 21:31:41,103 INFO  [Log] select() is Successfull! 
+2022-10-25 21:32:48,468 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 21:33:01,914 INFO  [Log] basketOperations() is Successfull! 
+2022-10-25 21:34:29,170 INFO  [Log] search() is Successfull! 
+2022-10-25 21:34:33,826 INFO  [Log] select() is Successfull! 
+2022-10-25 21:35:41,204 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 21:35:54,037 INFO  [Log] basketOperations() is Successfull! 
+2022-10-25 21:36:25,169 INFO  [Log] search() is Successfull! 
+2022-10-25 21:36:30,121 INFO  [Log] select() is Successfull! 
+2022-10-25 21:37:37,446 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 21:37:51,400 INFO  [Log] basketOperations() is Successfull! 
+2022-10-25 21:39:09,834 INFO  [Log] search() is Successfull! 
+2022-10-25 21:40:12,903 ERROR [Log] select() is Fail! --- Index 2 out of bounds for length 0 
+2022-10-25 21:41:16,695 ERROR [Log] addJeanToBasket() is Fail! --- An unknown server-side error occurred while processing the command. Original error: org.eclipse.wst.xml.xpath2.processor.internal.StaticNsNameError: Unknown prefix: com.lcwaikiki.android.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, databaseEnabled: false, desired: {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, deviceName: Android, newCommandTimeout: 250, platformName: android, udid: 5200c385ea39352d}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-J720F, deviceName: 5200c385ea39352d, deviceScreenDensity: 280, deviceScreenSize: 720x1280, deviceUDID: 5200c385ea39352d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 250, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 42, takesScreenshot: true, udid: 5200c385ea39352d, viewportRect: {height: 1238, left: 0, top: 42, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 8c5185cf-f536-4622-a14d-a8041e31ce83
+*** Element info: {Using=xpath, value=com.lcwaikiki.android:id/sizeHeightConstraintLayout} 
+2022-10-25 21:42:16,940 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-25 21:43:03,933 INFO  [Log] search() is Successfull! 
+2022-10-25 21:43:07,590 ERROR [Log] select() is Fail! --- Index 4 out of bounds for length 4 
+2022-10-25 21:45:08,295 ERROR [Log] addJeanToBasket() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/basket (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-25 21:45:46,297 INFO  [Log] search() is Successfull! 
+2022-10-25 21:45:49,563 INFO  [Log] select() is Successfull! 
+2022-10-25 21:46:56,709 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-25 21:47:10,568 INFO  [Log] basketOperations() is Successfull! 

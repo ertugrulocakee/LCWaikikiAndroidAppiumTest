@@ -19,11 +19,10 @@ public class LCWAIKIKITest extends  BaseTest{
 
     @Test
     @Order(1)
-    public  void login(){
+    public  void search(){
 
         homePage = new HomePageObjectModel(driver);
 
-        homePage.login();
         homePage.search();
 
     }

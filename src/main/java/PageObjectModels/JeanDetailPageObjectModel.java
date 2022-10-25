@@ -23,8 +23,7 @@ public class JeanDetailPageObjectModel extends  BaseObjectModel{
 
     private  final By combineItem = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView[2]/android.view.ViewGroup[3]/androidx.viewpager.widget.ViewPager/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup/android.widget.ImageView");
 
-    private  final By heightOptionButton = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup[1]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView[2]/android.view.ViewGroup");
-
+    private  final By heightOptionButton = By.xpath("com.lcwaikiki.android:id/sizeHeightConstraintLayout");
 
     public  static  String price = "";
 
@@ -77,7 +76,6 @@ public class JeanDetailPageObjectModel extends  BaseObjectModel{
     }
 
 
-
     public void selectJeanThenGoToBasket() {
 
 
@@ -101,12 +99,12 @@ public class JeanDetailPageObjectModel extends  BaseObjectModel{
         selectSize();
 
 
-        if(getText(addToBasketButton).contains("BOY SEÇİN")){
+        if(getText(addToBasketButton).equals("BOY SEÇİN")){
 
-          selectHeight();
-          clickElement(addToBasketButton);
-          getPrice();
-          clickElement(confirmJeanWithHeightButton);
+            selectHeight();
+            clickElement(addToBasketButton);
+            getPrice();
+            clickElement(confirmJeanWithHeightButton);
 
         }else {
 
@@ -117,6 +115,8 @@ public class JeanDetailPageObjectModel extends  BaseObjectModel{
 
             clickElement(confirmJeanButton);
         }
+
+
 
     }
 

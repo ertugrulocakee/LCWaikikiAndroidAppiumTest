@@ -35,9 +35,11 @@ public class BasketPageObjectModel extends  BaseObjectModel{
 
             System.out.println("The prices are same!");
 
-        }
+        }else {
 
-        System.out.println("The prices are not same !");
+            System.out.println("The prices are not same !");
+
+        }
 
     }
 
