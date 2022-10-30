@@ -102,3 +102,85 @@ Session ID: 8c5185cf-f536-4622-a14d-a8041e31ce83
 2022-10-25 21:45:49,563 INFO  [Log] select() is Successfull! 
 2022-10-25 21:46:56,709 INFO  [Log] addJeanToBasket() is Successfull! 
 2022-10-25 21:47:10,568 INFO  [Log] basketOperations() is Successfull! 
+2022-10-30 13:35:36,048 INFO  [Log] search() is Successfull! 
+2022-10-30 13:35:40,712 INFO  [Log] select() is Successfull! 
+2022-10-30 13:36:47,529 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-30 13:37:00,509 INFO  [Log] basketOperations() is Successfull! 
+2022-10-30 13:37:33,538 INFO  [Log] search() is Successfull! 
+2022-10-30 13:37:38,469 INFO  [Log] select() is Successfull! 
+2022-10-30 13:37:55,058 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-30 13:39:34,045 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/buttonNegative (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 13:40:08,810 INFO  [Log] search() is Successfull! 
+2022-10-30 13:40:13,560 INFO  [Log] select() is Successfull! 
+2022-10-30 13:40:28,776 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-30 13:41:28,912 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 13:51:24,716 INFO  [Log] search() is Successfull! 
+2022-10-30 13:51:29,975 INFO  [Log] select() is Successfull! 
+2022-10-30 13:52:36,550 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-30 13:52:50,498 INFO  [Log] basketOperations() is Successfull! 
+2022-10-30 13:54:01,497 INFO  [Log] search() is Successfull! 
+2022-10-30 13:54:06,040 INFO  [Log] select() is Successfull! 
+2022-10-30 13:55:22,055 ERROR [Log] addJeanToBasket() is Fail! --- Expected condition failed: waiting for element to be clickable: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[2] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 13:56:22,568 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 14:13:38,407 INFO  [Log] search() is Successfull! 
+2022-10-30 14:13:46,242 INFO  [Log] select() is Successfull! 
+2022-10-30 14:14:04,705 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-30 14:15:05,051 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 14:15:44,977 INFO  [Log] search() is Successfull! 
+2022-10-30 14:15:52,208 INFO  [Log] select() is Successfull! 
+2022-10-30 14:17:09,941 ERROR [Log] addJeanToBasket() is Fail! --- Expected condition failed: waiting for element to be clickable: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[2] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 14:18:10,101 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 14:35:34,379 INFO  [Log] search() is Successfull! 
+2022-10-30 14:35:40,176 INFO  [Log] select() is Successfull! 
+2022-10-30 14:36:47,696 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-30 14:37:01,315 INFO  [Log] basketOperations() is Successfull! 
+2022-10-30 20:09:34,277 INFO  [Log] search() is Successfull! 
+2022-10-30 20:09:38,676 INFO  [Log] select() is Successfull! 
+2022-10-30 20:10:45,577 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-30 20:10:58,498 INFO  [Log] basketOperations() is Successfull! 
+2022-10-30 20:11:34,646 INFO  [Log] search() is Successfull! 
+2022-10-30 20:11:39,146 INFO  [Log] select() is Successfull! 
+2022-10-30 20:11:55,004 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-30 20:12:55,522 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 20:14:59,676 INFO  [Log] search() is Successfull! 
+2022-10-30 20:15:04,512 INFO  [Log] select() is Successfull! 
+2022-10-30 20:16:20,242 ERROR [Log] addJeanToBasket() is Fail! --- An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, databaseEnabled: false, desired: {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, deviceName: Android, newCommandTimeout: 250, platformName: android, udid: 5200c385ea39352d}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-J720F, deviceName: 5200c385ea39352d, deviceScreenDensity: 280, deviceScreenSize: 720x1280, deviceUDID: 5200c385ea39352d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 250, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 42, takesScreenshot: true, udid: 5200c385ea39352d, viewportRect: {height: 1238, left: 0, top: 42, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 08f94902-28f8-44ff-945c-5d429d9626fb
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[2]} 
+2022-10-30 20:17:20,690 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 20:20:40,837 INFO  [Log] search() is Successfull! 
+2022-10-30 20:20:45,853 INFO  [Log] select() is Successfull! 
+2022-10-30 20:21:08,370 ERROR [Log] addJeanToBasket() is Fail! --- Expected condition failed: waiting for visibility of element located by By.linkText: Sepete Git (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 20:22:08,958 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 20:30:18,935 INFO  [Log] search() is Successfull! 
+2022-10-30 20:30:23,373 INFO  [Log] select() is Successfull! 
+2022-10-30 20:30:46,073 ERROR [Log] addJeanToBasket() is Fail! --- Expected condition failed: waiting for visibility of element located by By.linkText: Sepete Git (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 20:31:46,475 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 20:32:18,087 INFO  [Log] search() is Successfull! 
+2022-10-30 20:32:22,383 INFO  [Log] select() is Successfull! 
+2022-10-30 20:32:34,906 ERROR [Log] addJeanToBasket() is Fail! --- Locator Strategy 'link text' is not supported for this session
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, databaseEnabled: false, desired: {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, deviceName: Android, newCommandTimeout: 250, platformName: android, udid: 5200c385ea39352d}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-J720F, deviceName: 5200c385ea39352d, deviceScreenDensity: 280, deviceScreenSize: 720x1280, deviceUDID: 5200c385ea39352d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 250, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 42, takesScreenshot: true, udid: 5200c385ea39352d, viewportRect: {height: 1238, left: 0, top: 42, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 8874b3c8-9996-4280-b167-2436b1b1b38c
+*** Element info: {Using=link text, value=Sepete Git} 
+2022-10-30 20:33:35,670 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/plusImageView (tried for 10 second(s) with 500 milliseconds interval) 
+2022-10-30 20:34:07,435 INFO  [Log] search() is Successfull! 
+2022-10-30 20:34:11,888 INFO  [Log] select() is Successfull! 
+2022-10-30 20:34:25,481 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-30 20:34:38,339 INFO  [Log] basketOperations() is Successfull! 
+2022-10-30 20:35:05,627 INFO  [Log] search() is Successfull! 
+2022-10-30 20:35:10,564 INFO  [Log] select() is Successfull! 
+2022-10-30 20:35:25,782 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-30 20:35:36,124 INFO  [Log] basketOperations() is Successfull! 
+2022-10-30 20:38:43,873 INFO  [Log] search() is Successfull! 
+2022-10-30 20:38:48,607 INFO  [Log] select() is Successfull! 
+2022-10-30 20:39:05,887 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-10-30 20:39:15,902 INFO  [Log] basketOperations() is Successfull! 

@@ -17,6 +17,7 @@ public class JeanDetailPageObjectModel extends  BaseObjectModel{
     private final By sizeOptionButton = By.xpath("(//android.widget.FrameLayout[@content-desc=\"Stokta\"])");
 
     private final By confirmJeanButton = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[2]");
+
     private  final  By combineTextView = By.id("com.lcwaikiki.android:id/combineProductsTitle");
 
     private final  By confirmJeanWithHeightButton = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[2]");
@@ -94,32 +95,26 @@ public class JeanDetailPageObjectModel extends  BaseObjectModel{
 
         }
 
-
         clickElement(addToBasketButton);
         selectSize();
-
 
         if(getText(addToBasketButton).equals("BOY SEÇİN")){
 
             selectHeight();
             clickElement(addToBasketButton);
             getPrice();
-            clickElement(confirmJeanWithHeightButton);
+            findElement(confirmJeanWithHeightButton).click();
 
         }else {
-
 
             clickElement(addToBasketButton);
 
             getPrice();
 
-            clickElement(confirmJeanButton);
+            findElement(confirmJeanButton).click();
+
         }
 
-
-
     }
-
-
 
 }
