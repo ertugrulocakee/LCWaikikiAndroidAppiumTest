@@ -2,7 +2,6 @@
 appium&amp;&amp;seleniumTesting
 
 
-
 Appium,Selenium ve JUnit kullanılarak LCWaikiki android uygulaması için UI Test Otomasyonu çalışması yapılmıştır.
 OOP prensiplerine ve Page Object Pattern kullanımına dikkat edilmiştir. 
 
