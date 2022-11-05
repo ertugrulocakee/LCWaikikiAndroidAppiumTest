@@ -30,7 +30,6 @@ public class JeansPageObjectModel extends BaseObjectModel{
 
         getAllJeans().get(number).click();
 
-
     }
 
 

@@ -24,9 +24,12 @@ public class JeanDetailPageObjectModel extends  BaseObjectModel{
 
     private  final By combineItem = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView[2]/android.view.ViewGroup[3]/androidx.viewpager.widget.ViewPager/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup/android.widget.ImageView");
 
-    private  final By heightOptionButton = By.xpath("com.lcwaikiki.android:id/sizeHeightConstraintLayout");
+    private  final By heightOptionButton = By.id("com.lcwaikiki.android:id/sizeHeightConstraintLayout");
+
+    private  final  By heightTextLabel = By.id("com.lcwaikiki.android:id/sizeHeightText");
 
     public  static  String price = "";
+
 
 
     public JeanDetailPageObjectModel(AppiumDriver driver) {
@@ -98,22 +101,34 @@ public class JeanDetailPageObjectModel extends  BaseObjectModel{
         clickElement(addToBasketButton);
         selectSize();
 
-        if(getText(addToBasketButton).equals("BOY SEÇİN")){
 
-            selectHeight();
-            clickElement(addToBasketButton);
-            getPrice();
-            findElement(confirmJeanWithHeightButton).click();
 
-        }else {
+        try{
 
-            clickElement(addToBasketButton);
+            if(isElementVisible(heightTextLabel)){
 
-            getPrice();
+                selectHeight();
+                clickElement(addToBasketButton);
+                getPrice();
+                findElement(confirmJeanWithHeightButton).click();
 
-            findElement(confirmJeanButton).click();
+
+            }else{
+
+                clickElement(addToBasketButton);
+
+                getPrice();
+
+                findElement(confirmJeanButton).click();
+
+            }
+
+        }catch (NoSuchElementException exception){
+
+            System.out.println("You needn't to select a height!");
 
         }
+
 
     }
 

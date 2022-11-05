@@ -184,3 +184,75 @@ Session ID: 8874b3c8-9996-4280-b167-2436b1b1b38c
 2022-10-30 20:38:48,607 INFO  [Log] select() is Successfull! 
 2022-10-30 20:39:05,887 INFO  [Log] addJeanToBasket() is Successfull! 
 2022-10-30 20:39:15,902 INFO  [Log] basketOperations() is Successfull! 
+2022-11-04 22:34:44,873 INFO  [Log] search() is Successfull! 
+2022-11-04 22:34:48,544 INFO  [Log] select() is Successfull! 
+2022-11-04 22:35:55,001 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 22:36:08,094 INFO  [Log] basketOperations() is Successfull! 
+2022-11-04 22:36:49,123 INFO  [Log] search() is Successfull! 
+2022-11-04 22:36:54,325 INFO  [Log] select() is Successfull! 
+2022-11-04 22:38:01,244 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 22:38:14,712 INFO  [Log] basketOperations() is Successfull! 
+2022-11-04 22:38:55,798 INFO  [Log] search() is Successfull! 
+2022-11-04 22:39:01,392 INFO  [Log] select() is Successfull! 
+2022-11-04 22:40:07,077 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 22:40:20,232 INFO  [Log] basketOperations() is Successfull! 
+2022-11-04 22:41:12,904 INFO  [Log] search() is Successfull! 
+2022-11-04 22:41:18,138 INFO  [Log] select() is Successfull! 
+2022-11-04 22:42:21,758 ERROR [Log] addJeanToBasket() is Fail! --- An unknown server-side error occurred while processing the command. Original error: org.eclipse.wst.xml.xpath2.processor.internal.StaticNsNameError: Unknown prefix: com.lcwaikiki.android.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, databaseEnabled: false, desired: {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, deviceName: Android, newCommandTimeout: 250, platformName: android, udid: 5200c385ea39352d}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-J720F, deviceName: 5200c385ea39352d, deviceScreenDensity: 280, deviceScreenSize: 720x1280, deviceUDID: 5200c385ea39352d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 250, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 42, takesScreenshot: true, udid: 5200c385ea39352d, viewportRect: {height: 1238, left: 0, top: 42, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 9e2f1ee7-0a9f-425e-bcc9-b15e8d87cd92
+*** Element info: {Using=xpath, value=com.lcwaikiki.android:id/sizeHeightConstraintLayout} 
+2022-11-04 22:43:22,287 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 22:54:11,195 INFO  [Log] search() is Successfull! 
+2022-11-04 22:54:17,242 INFO  [Log] select() is Successfull! 
+2022-11-04 22:55:20,725 ERROR [Log] addJeanToBasket() is Fail! --- An unknown server-side error occurred while processing the command. Original error: org.eclipse.wst.xml.xpath2.processor.internal.StaticNsNameError: Unknown prefix: com.lcwaikiki.android.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1ODVGB', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, databaseEnabled: false, desired: {appActivity: com.lcwaikiki.android.ui.Ho..., appPackage: com.lcwaikiki.android, deviceName: Android, newCommandTimeout: 250, platformName: android, udid: 5200c385ea39352d}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-J720F, deviceName: 5200c385ea39352d, deviceScreenDensity: 280, deviceScreenSize: 720x1280, deviceUDID: 5200c385ea39352d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 250, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 42, takesScreenshot: true, udid: 5200c385ea39352d, viewportRect: {height: 1238, left: 0, top: 42, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 253bcd70-d892-4b53-9198-7e3d4f2c0ad9
+*** Element info: {Using=xpath, value=com.lcwaikiki.android:id/sizeHeightConstraintLayout} 
+2022-11-04 22:56:20,893 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 23:03:05,035 INFO  [Log] search() is Successfull! 
+2022-11-04 23:03:10,073 INFO  [Log] select() is Successfull! 
+2022-11-04 23:04:17,981 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 23:04:32,525 INFO  [Log] basketOperations() is Successfull! 
+2022-11-04 23:05:16,219 INFO  [Log] search() is Successfull! 
+2022-11-04 23:05:21,959 INFO  [Log] select() is Successfull! 
+2022-11-04 23:07:24,521 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 23:08:24,681 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 23:09:06,786 INFO  [Log] search() is Successfull! 
+2022-11-04 23:09:12,056 INFO  [Log] select() is Successfull! 
+2022-11-04 23:11:14,375 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 23:12:14,409 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 23:14:40,078 INFO  [Log] search() is Successfull! 
+2022-11-04 23:14:44,584 INFO  [Log] select() is Successfull! 
+2022-11-04 23:16:47,152 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 23:17:47,196 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 23:18:21,102 INFO  [Log] search() is Successfull! 
+2022-11-04 23:18:26,366 INFO  [Log] select() is Successfull! 
+2022-11-04 23:20:28,947 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 23:21:28,987 ERROR [Log] basketOperations() is Fail! --- Expected condition failed: waiting for visibility of element located by By.id: com.lcwaikiki.android:id/itemBasketPrice (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 23:22:07,702 INFO  [Log] search() is Successfull! 
+2022-11-04 23:22:12,796 INFO  [Log] select() is Successfull! 
+2022-11-04 23:24:16,037 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 23:25:29,589 INFO  [Log] search() is Successfull! 
+2022-11-04 23:25:34,682 INFO  [Log] select() is Successfull! 
+2022-11-04 23:27:39,752 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 23:27:52,486 INFO  [Log] basketOperations() is Successfull! 
+2022-11-04 23:28:32,111 INFO  [Log] search() is Successfull! 
+2022-11-04 23:28:37,082 INFO  [Log] select() is Successfull! 
+2022-11-04 23:30:42,303 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 23:30:55,055 INFO  [Log] basketOperations() is Successfull! 
+2022-11-04 23:31:28,393 INFO  [Log] search() is Successfull! 
+2022-11-04 23:32:53,135 INFO  [Log] search() is Successfull! 
+2022-11-04 23:32:58,539 INFO  [Log] select() is Successfull! 
+2022-11-04 23:35:03,851 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 23:35:16,670 INFO  [Log] basketOperations() is Successfull! 
+2022-11-04 23:35:48,087 INFO  [Log] search() is Successfull! 
+2022-11-04 23:35:52,665 INFO  [Log] select() is Successfull! 
+2022-11-04 23:37:00,862 INFO  [Log] addJeanToBasket() is Successfull! 
+2022-11-04 23:37:14,658 INFO  [Log] basketOperations() is Successfull! 
