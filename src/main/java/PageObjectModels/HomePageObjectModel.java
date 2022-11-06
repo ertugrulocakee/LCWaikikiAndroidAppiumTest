@@ -7,7 +7,6 @@ import org.openqa.selenium.By;
 
 public class HomePageObjectModel extends BaseObjectModel{
 
-
     private final By searchBox = By.id("com.lcwaikiki.android:id/search");
     private final By  toolbarSearch = By.id("com.lcwaikiki.android:id/toolbar_search");
 
@@ -15,17 +14,13 @@ public class HomePageObjectModel extends BaseObjectModel{
         super(driver);
     }
 
-
-
     public  void search(){
 
         clickElement(searchBox);
         clickElement(toolbarSearch);
-        findElement(toolbarSearch).sendKeys("pantolon");
+        sendKeys(toolbarSearch,"pantolon");
         driver.executeScript("mobile: performEditorAction", ImmutableMap.of("action", "search")); // Android Search Button works...
 
     }
-
-
 
 }
